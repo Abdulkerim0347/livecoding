@@ -1,0 +1,16 @@
+Test cases:
+
+Positive case
+    1. first name and last name (1 - 32 characters), email (ab@er.co), address 1, city (3 - 128 characters) and etc.
+    all the required fields should be filled according to requirements
+
+Negative case
+    1. at least one required field is missed
+    2. inappropriate email structure
+    3. skip clicking privacy policy button
+    4. passwords do not match
+
+Framework architecture
+    - Page object model
+    - Data generation
+    - DTO classes for user data
